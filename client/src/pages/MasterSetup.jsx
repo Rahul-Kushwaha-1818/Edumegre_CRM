@@ -17,7 +17,7 @@ export default function MasterSetup() {
     ]
   });
 
-  const API_BASE = import.meta.env.VITE_API_URL || 'https://edumegre-crm.onrender.com';
+  const API_BASE = import.meta.env.VITE_API_URL || 'https://edumegre-crm-1.onrender.com';
 
   const fetchPrograms = () => {
     setLoading(true);
