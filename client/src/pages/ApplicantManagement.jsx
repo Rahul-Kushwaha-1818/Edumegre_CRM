@@ -14,7 +14,7 @@ export default function ApplicantManagement() {
     programApplied: '', quotaType: 'KCET', allotmentNumber: ''
   });
 
-  const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API_BASE = import.meta.env.VITE_API_URL || 'https://edumegre-crm.onrender.com';
 
   const fetchData = async () => {
     setLoading(true);

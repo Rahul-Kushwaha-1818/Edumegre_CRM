@@ -7,7 +7,7 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_BASE = import.meta.env.VITE_API_URL || 'https://edumegre-crm.onrender.com';
     axios.get(`${API_BASE}/api/dashboard`)
       .then(res => {
         setData(res.data);
