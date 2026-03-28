@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+}
+
+body {
+  color: #e2e8f0;
+  background-color: #030712;
+  background-image: radial-gradient(circle at top right, #1e1b4b, #030712 40%), radial-gradient(circle at bottom left, #0f172a, #030712 40%);
+  background-attachment: fixed;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
